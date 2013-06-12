@@ -32,9 +32,5 @@ function fungsiCurl($url){
 $url = fungsiCurl('http://www.perdania.co.id/index.php/rate');
 $pecah = explode('<td valign="top" colspan="2" align="left" height="20" background="http://www.perdania.co.id/app/webroot/img/title/bg.gif"><img src="http://www.perdania.co.id/app/webroot/img/title/rate_tt.gif" border="0" /></td>', $url);
 $pecah2 = explode('</table></td>',$pecah[1]);
-//$pecah3 = explode ('<table width="200" border="1" style="float:left;">', $pecah2[1]);
-//echo "<table border='1'>";
-//echo "<tr><td>KURS</td><td>JUAL</td><td>BELI</td></tr>";
 print_r($pecah2[0]);
-//echo "</table>";
 ?>
