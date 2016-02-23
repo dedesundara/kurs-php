@@ -29,7 +29,7 @@ function fungsiCurl($url){
      curl_close($data);
      return $hasil;
 }
-$url = fungsiCurl('http://www.bca.co.id/id/biaya-limit/kurs_counter_bca/kurs_counter_bca_landing.jsp');
+$url = fungsiCurl('http://www.bca.co.id/Individu/Sarana/Kurs-dan-Suku-Bunga/Kurs-dan-Kalkulator');
 $pecah = explode('<tr bgcolor="#dee9f2" style="text-align:center;">', $url);
 $pecah2 = explode ('<td><strong>Beli</strong></td>',$pecah[1]);
 $pecah3 = explode ('<table width="200" border="1" style="float:left;">', $pecah2[1]);
