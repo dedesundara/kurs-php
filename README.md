@@ -5,7 +5,7 @@ Script untuk mengambil <a href="http://jaranguda.com/tag/kurs">kurs rupiah dari 
 
 Demo
 =============
-<a href="http://jaranguda.com">jaranguda.com</a>
+<a href="https://kurs.web.id">kurs.web.id</a>
 
 Lisensi 
 =============
